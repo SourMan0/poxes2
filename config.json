@@ -1,0 +1,954 @@
+{
+  "assemblies": [
+    {
+      "name": "bsv",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "bsv-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "bsv.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "bsv.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "cowpox",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "cowpox-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "cowpox.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "cowpox.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "mcv",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "mcv-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "mcv.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "mcv.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "monkeypox",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "monkeypox-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "monkeypox.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "monkeypox.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "orfvirus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "orfvirus-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "orfvirus.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "orfvirus.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "pcpv",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "pcpv-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "pcpv.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "pcpv.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "tanv",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "tanv-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "tanv.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "tanv.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "vaccinia",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "vaccinia-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "vaccinia.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "vaccinia.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "variola",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "variola-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "variola.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "variola.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "yldv",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "yldv-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "yldv.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "yldv.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "ymtv",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "ymtv-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "ymtv.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "ymtv.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "poxes",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "poxes-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "poxes.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "poxes.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "orthopoxviruses",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "orthopoxviruses-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "orthopoxviruses.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "orthopoxviruses.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "parapoxviruses",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "parapoxviruses-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "parapoxviruses.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "parapoxviruses.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "yatapoxviruses",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "yatapoxviruses-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "yatapoxviruses.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "yatapoxviruses.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "ymtv.gff3",
+      "name": "ymtv.gff3",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "ymtv.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "ymtv.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "ymtv"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "vaccinia.gff3",
+      "name": "vaccinia.gff3",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "vaccinia.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "vaccinia.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "vaccinia"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "variola.gff3",
+      "name": "variola.gff3",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "variola.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "variola.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "variola"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "monkeypox.gff3",
+      "name": "monkeypox.gff3",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "monkeypox.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "monkeypox.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "monkeypox"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "cowpox.gff3",
+      "name": "cowpox.gff3",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "cowpox.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "cowpox.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "cowpox"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "orfvirus.gff3",
+      "name": "orfvirus.gff3",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "orfvirus.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "orfvirus.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "orfvirus"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "pcpv.gff3",
+      "name": "pcpv.gff3",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "pcpv.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "pcpv.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "pcpv"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "bsv.gff3",
+      "name": "bsv.gff3",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "bsv.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "bsv.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "bsv"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "tanv.gff3",
+      "name": "tanv.gff3",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "tanv.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "tanv.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "tanv"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "yldv.gff3",
+      "name": "yldv.gff3",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "yldv.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "yldv.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "yldv"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "mcv.gff3",
+      "name": "mcv.gff3",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "mcv.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "mcv.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "mcv"
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "alignedPoxesSorted",
+      "name": "alignedPoxesSorted",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "alignedPoxesSorted.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "alignedPoxesSorted.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "poxes.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "poxes.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "assemblyNames": [
+        "poxes"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "poxes.gff3",
+      "name": "poxes.gff3",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "poxes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "poxes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "poxes"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "orthopoxviruses.gff3",
+      "name": "orthopoxviruses.gff3",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "orthopoxviruses.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "orthopoxviruses.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "orthopoxviruses"
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "alignedOrthopoxesSorted",
+      "name": "alignedOrthopoxesSorted",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "alignedOrthopoxesSorted.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "alignedOrthopoxesSorted.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "orthopoxviruses.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "orthopoxviruses.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "assemblyNames": [
+        "orthopoxviruses"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "parapoxviruses.gff3",
+      "name": "parapoxviruses.gff3",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "parapoxviruses.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "parapoxviruses.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "parapoxviruses"
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "alignedParapoxesSorted",
+      "name": "alignedParapoxesSorted",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "alignedParapoxesSorted.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "alignedParapoxesSorted.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "parapoxviruses.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "parapoxviruses.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "assemblyNames": [
+        "parapoxviruses"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "yatapoxviruses.gff3",
+      "name": "yatapoxviruses.gff3",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "yatapoxviruses.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "yatapoxviruses.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "yatapoxviruses"
+      ]
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "alignedYatapoxesSorted",
+      "name": "alignedYatapoxesSorted",
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "alignedYatapoxesSorted.bam",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "alignedYatapoxesSorted.bam.bai",
+            "locationType": "UriLocation"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "yatapoxviruses.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "yatapoxviruses.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "assemblyNames": [
+        "yatapoxviruses"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "bsv-index",
+      "ixFilePath": {
+        "uri": "trix/bsv.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/bsv.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/bsv_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "bsv"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "cowpox-index",
+      "ixFilePath": {
+        "uri": "trix/cowpox.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/cowpox.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/cowpox_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "cowpox"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "mcv-index",
+      "ixFilePath": {
+        "uri": "trix/mcv.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/mcv.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/mcv_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "mcv"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "monkeypox-index",
+      "ixFilePath": {
+        "uri": "trix/monkeypox.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/monkeypox.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/monkeypox_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "monkeypox"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "orfvirus-index",
+      "ixFilePath": {
+        "uri": "trix/orfvirus.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/orfvirus.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/orfvirus_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "orfvirus"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "pcpv-index",
+      "ixFilePath": {
+        "uri": "trix/pcpv.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/pcpv.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/pcpv_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "pcpv"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "tanv-index",
+      "ixFilePath": {
+        "uri": "trix/tanv.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/tanv.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/tanv_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "tanv"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "vaccinia-index",
+      "ixFilePath": {
+        "uri": "trix/vaccinia.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/vaccinia.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/vaccinia_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "vaccinia"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "variola-index",
+      "ixFilePath": {
+        "uri": "trix/variola.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/variola.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/variola_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "variola"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "yldv-index",
+      "ixFilePath": {
+        "uri": "trix/yldv.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/yldv.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/yldv_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "yldv"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "ymtv-index",
+      "ixFilePath": {
+        "uri": "trix/ymtv.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/ymtv.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/ymtv_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "ymtv"
+      ]
+    }
+  ]
+}
