@@ -1,1 +1,65 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="shortcut icon" href="./favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="A fast and flexible genome browser"/><link rel="manifest" href="./manifest.json"/><title>JBrowse</title><script defer="defer" src="static/js/main.c2c56d13.js"></script></head><body style="overscroll-behavior:none"><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BioE131 Final Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 2.8em;
+            margin-bottom: 40px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: center;
+        }
+        ul {
+            text-align: left;
+            max-width: 600px;
+            margin: 60px auto;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Database of Human Infecting Poxviruses</h1>
+    <p>This database contains all human infecting poxvirus genomes anbd their genome annotations. It also contains a multiple sequence alignment (MSA) for all of the virus genomes, as well as smaller MSAs for each respective genus. Below are all of the viruses we will observing as well as their aliases:
+        <ul>
+            <li>Variola (NC_001611.1)</li>
+            <li>Monkeypox (ON563414.3)</li>
+            <li>Vaccinia (NC_006998.1)</li>
+            <li>Cowpox (NC_003663.2)</li>
+            <li>Orf Virus (NC_005336.1)</li>
+            <li>Pseudocowpox Virus (pcpv) (NC_013804.1)</li>
+            <li>Bovine Stomatitis Virus (bsv) (NC_005337.1)</li>
+            <li>Ta na pox virus (TANV) (EF420156.1)</li>
+            <li>Yaba-like disease virus (AJ293568.1)</li>
+            <li>Ya ba monkey tumor virus (YMTV) (NC_005179.1)</li>
+            <li>Molluscum Contagiosum virus (MCV) (MN931752.1)</li>
+            <li>All Poxvirus species "poxes" *</li>
+            <li>Orththopoxviruses "orthopoxviruses" *</li>
+            <li>Parapoxviruses "parapoxviruses" *</li>
+            <li>Yatapoxviruses "Yatapoxviruses" *</li>
+
+
+        </ul>
+
+    <p>* These assemblies have an MSA.<p>
+
+    Press the button below to access the database! Once you press the button, make sure to select "Linear Genome View" and select the assembly that you want! Make sure to select the right track from the track list to see genome annotations and alignments.</p>
+
+    <button onclick="window.location.href='out.html'">Database</button>
+
+</body>
+</html>
