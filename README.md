@@ -2,7 +2,7 @@ This repository contains all of the files that were needed to create my website.
 For some reason, however, it seems like GitHub pages wasn't able to process the compressed files for my alignments or my gene annotations.
 Therefore, I opted for an external app to make my website, and this works perfectly, the link is below!
 
-stalwart-zuccutto-e015a4.netlify.app
+https://curious-mandazi-62a048.netlify.app/
 
 To navigate this app, first go to the website above, and then select "Linear Genome View". Then, you will have 15 different assemblies to choose from. 
 The first 11 are the following species of poxviruses:
